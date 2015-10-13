@@ -245,13 +245,36 @@ html {
    margin-left: 2em;
  }
 
+}
+
  @media print{
-  nav{
-    display: none;
-  }
+
   main a::after{
     content: " (" attr(href) ")";
   }
-}
+
+  nav {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .boxes {
+    width: 40%;
+  }
+
+  .billboard {
+    width: 40%;
+  }
+
+  .bigtext {
+    display: none;
+  }
 
 }
