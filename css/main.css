@@ -245,5 +245,13 @@ html {
    margin-left: 2em;
  }
 
+ @media print{
+  nav{
+    display: none;
+  }
+  main a::after{
+    content: " (" attr(href) ")";
+  }
+}
 
 }
