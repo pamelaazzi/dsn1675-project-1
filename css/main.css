@@ -139,6 +139,7 @@ html {
   .icons {
     margin: 1rem;
     text-align: center;
+    clear: both;
   }
 
   img {
